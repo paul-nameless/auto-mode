@@ -1,0 +1,20 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "auto_mode"
+dist-name = "auto-mode"
+description-file = "README.md"
+author = "Paul Nameless"
+author-email = "paul.nameless@icloud.com"
+home-page = 'https://github.com/paul-nameless/auto-mode'
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+]
+requires-python = ">=3.7"
+requires = ['pyobjc-framework-CoreLocation', 'python-dateutil']
+
+[tool.flit.scripts]
+auto-mode = "auto_mode:main"
