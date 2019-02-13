@@ -17,4 +17,4 @@ requires-python = ">=3.7"
 requires = ['pyobjc-framework-CoreLocation', 'python-dateutil']
 
 [tool.flit.scripts]
-auto-mode = "auto_mode:main"
+auto-mode = "auto_mode.main:main"
