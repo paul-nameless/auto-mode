@@ -12,5 +12,5 @@ pip install auto-mode
 
 Add to cron (crontab -e)
 ```
-*/5 * * * * auto-mode 2>&1 >/dev/null
+*/5 * * * * /usr/local/bin/auto-mode 2>&1 >/dev/null
 ```
